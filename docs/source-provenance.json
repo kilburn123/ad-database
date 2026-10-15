@@ -1,0 +1,104 @@
+{
+  "cutoffUTC": "2026-07-03T08:00:00Z",
+  "recoveryMethod": "Replay original Codex file creation and edits; dependency metadata supplemented for this handoff",
+  "files": [
+    {
+      "path": "package.json",
+      "lastRecoveredEditUTC": "2026-06-24T10:37:05.768Z",
+      "recoveredAction": "Add",
+      "sha256": "d70f293a81d77fdb90a67d4ae14e3ea2b781d035490ea02ded2e2b82928a8a9b",
+      "dependencyMetadataSupplemented": true
+    },
+    {
+      "path": "next.config.mjs",
+      "lastRecoveredEditUTC": "2026-06-25T06:30:55.691Z",
+      "recoveredAction": "Update",
+      "sha256": "4288c9874dc8871c8fec0a119f2ce8c2cd2bd478860471eb65153d2f19c6b199",
+      "dependencyMetadataSupplemented": false
+    },
+    {
+      "path": "tsconfig.json",
+      "lastRecoveredEditUTC": "2026-06-25T06:33:16.131Z",
+      "recoveredAction": "Update",
+      "sha256": "20033ad10464a3a1e5087708cbe76f9dbd561ba4f145f82f2b7dfd397e451c8b",
+      "dependencyMetadataSupplemented": false
+    },
+    {
+      "path": "next-env.d.ts",
+      "lastRecoveredEditUTC": "2026-06-24T10:37:05.768Z",
+      "recoveredAction": "Add",
+      "sha256": "9dd9d642cdb87d4d5b3173217e0c45429b3e47a6f5cf5fb0ead6c644ec5fed01",
+      "dependencyMetadataSupplemented": false
+    },
+    {
+      "path": "postcss.config.js",
+      "lastRecoveredEditUTC": "2026-06-24T10:37:05.768Z",
+      "recoveredAction": "Add",
+      "sha256": "c3275e0c1ab2639ab056915eac2a806b997a7879c31edce8898ec443a4823a06",
+      "dependencyMetadataSupplemented": false
+    },
+    {
+      "path": "tailwind.config.ts",
+      "lastRecoveredEditUTC": "2026-06-24T10:37:05.768Z",
+      "recoveredAction": "Add",
+      "sha256": "f145928c0bd014e2e9e81a8acc23f696304fd59c87ec829a36134c0385015327",
+      "dependencyMetadataSupplemented": false
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "lastRecoveredEditUTC": "2026-06-24T10:37:05.768Z",
+      "recoveredAction": "Add",
+      "sha256": "39faf58cc78e5601249a6ddbc7886b75bfe87d01e19fa9bcae6f916629e65182",
+      "dependencyMetadataSupplemented": false
+    },
+    {
+      "path": "src/app/globals.css",
+      "lastRecoveredEditUTC": "2026-07-02T10:44:48.006Z",
+      "recoveredAction": "Update",
+      "sha256": "3da4d4372fcb2c28024b78aa6dad9085bee7dbd485329ccf553774c6248b1697",
+      "dependencyMetadataSupplemented": false
+    },
+    {
+      "path": "src/app/page.tsx",
+      "lastRecoveredEditUTC": "2026-07-03T04:37:00.018Z",
+      "recoveredAction": "Update",
+      "sha256": "8ebd4edc903d1a453bdc68eb7dcb5fa1306dc04ea871c9c87229a4da33992553",
+      "dependencyMetadataSupplemented": false
+    },
+    {
+      "path": "src/lib/server-ads.ts",
+      "lastRecoveredEditUTC": "2026-07-03T06:21:43.517Z",
+      "recoveredAction": "Update",
+      "sha256": "486672bdea25d89a75dd691a345ab06ea84c6ac24d7d3b30c744f7e697478bf9",
+      "dependencyMetadataSupplemented": false
+    },
+    {
+      "path": "src/app/api/ads/route.ts",
+      "lastRecoveredEditUTC": "2026-07-03T04:35:37.416Z",
+      "recoveredAction": "Update",
+      "sha256": "9e63147f533cc6302dab525bd88a884a636676771660b2453fbc27c8d17dfb5f",
+      "dependencyMetadataSupplemented": false
+    },
+    {
+      "path": "src/app/api/ads/upload/route.ts",
+      "lastRecoveredEditUTC": "2026-07-03T03:38:13.262Z",
+      "recoveredAction": "Update",
+      "sha256": "e2809ec6aa55f0fe276ac0d21cbe64803583ee9332b19ef8d10ac1b0dd601e71",
+      "dependencyMetadataSupplemented": false
+    },
+    {
+      "path": "src/app/api/ads/[id]/video/route.ts",
+      "lastRecoveredEditUTC": "2026-07-03T04:33:16.942Z",
+      "recoveredAction": "Update",
+      "sha256": "7b12f8679a59f5b87d1f189e79e0e5d1f55a4fc1de443e1cdb5efe09cabb9f8d",
+      "dependencyMetadataSupplemented": false
+    },
+    {
+      "path": "src/app/api/ads/[id]/route.ts",
+      "lastRecoveredEditUTC": "2026-07-03T04:36:12.097Z",
+      "recoveredAction": "Update",
+      "sha256": "fd2ad8922b41606640d3364bcae3573c04518e86de1da9e938cc64bd382ee1bf",
+      "dependencyMetadataSupplemented": false
+    }
+  ]
+}

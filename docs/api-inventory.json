@@ -1,0 +1,37 @@
+{
+  "recoveredSource": [
+    "/api/ads",
+    "/api/ads/[id]",
+    "/api/ads/[id]/video",
+    "/api/ads/upload"
+  ],
+  "runtime": [
+    "/api/account-ops/accounts",
+    "/api/account-ops/accounts/[account]",
+    "/api/account-ops/accounts/[account]/videos",
+    "/api/account-ops/monitor-jobs",
+    "/api/account-ops/summary",
+    "/api/account-ops/tiktok",
+    "/api/account-ops/trend",
+    "/api/account-ops/videos",
+    "/api/account-ops/videos/[id]",
+    "/api/ads",
+    "/api/ads/[id]",
+    "/api/ads/[id]/clip",
+    "/api/ads/[id]/export",
+    "/api/ads/[id]/frame",
+    "/api/ads/[id]/video",
+    "/api/ads/import-by-id",
+    "/api/ai-suggest",
+    "/api/ai-video-suggestions",
+    "/api/crawl/tiktok",
+    "/api/data-assistant",
+    "/api/doubao-analysis",
+    "/api/doubao-analysis/results",
+    "/api/doubao-analysis/results/[id]",
+    "/api/export",
+    "/api/health",
+    "/api/public/ads",
+    "/api/public/ads/[id]"
+  ]
+}

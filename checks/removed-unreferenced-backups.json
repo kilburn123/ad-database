@@ -1,0 +1,44 @@
+[
+  {
+    "path": "runtime/.next/server/app/page.js.pre-facebook-rule-20260902",
+    "references": [],
+    "sha256": "59b762703447205e5791e54f26b6e7b91a475dac18f71a67946d9f0b90dccc4e",
+    "removed": true
+  },
+  {
+    "path": "runtime/.next/server/app/page.js.pre-hide-zero-mexico",
+    "references": [],
+    "sha256": "f78694f0641f91ef2d18b0a0a7d0a9d1926b626bb5209df96e328cc960821dec",
+    "removed": true
+  },
+  {
+    "path": "runtime/.next/server/chunks/184.js.pre-facebook-rule-20260902",
+    "references": [],
+    "sha256": "f4c7a9de359eebccc1d4fd8ec31718e0e063b1aed46322a0577496b20a9b64a8",
+    "removed": true
+  },
+  {
+    "path": "runtime/.next/server/chunks/product-catalog.json.before-igg-b2-hmd-20260918",
+    "references": [],
+    "sha256": "6f6df2e00c1fdbec4ac611b4ea15ff644f7daf6e55c906e21861f6e8d22e19c5",
+    "removed": true
+  },
+  {
+    "path": "runtime/.next/server/chunks/product-catalog.json.before-igg-b2-20260918",
+    "references": [],
+    "sha256": "5e8479a969fde482d7ec8600c9213660363ca2397d8e72b35cbdc5f075cf6c51",
+    "removed": true
+  },
+  {
+    "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982.js.pre-hide-zero-mexico",
+    "references": [],
+    "sha256": "afcae749f3c1abd0a0da0c9558914d880b6e983d06d305a71a5687896bbd6ef4",
+    "removed": true
+  },
+  {
+    "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-facebook-analysis.js.pre-facebook-rule-20260902",
+    "references": [],
+    "sha256": "87b2a4cc625616eda8f5e66133f230c5a260e86edc0819bc7d0a414fb484f2f1",
+    "removed": true
+  }
+]

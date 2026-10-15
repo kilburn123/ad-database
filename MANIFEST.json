@@ -1,0 +1,996 @@
+{
+  "deliveryDate": "2026-10-15",
+  "scope": "All included files except MANIFEST.json itself",
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 370,
+      "sha256": "6df11d196f4686bb9fa51f3ad43bcc587f0ccb168bf428e8280e5048890a1d18"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 335,
+      "sha256": "6ff82b5171c9a7008b6a5d0483eb17e9d50a428528663e41abfc107e08d44e2e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3599,
+      "sha256": "3b8fe6e6db30873351b998aa780f0b247aae0464102fb5dd396d32b450d7fb78"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 1186,
+      "sha256": "9a2925891275ea926ed58162557601905dc261c58f6c79d76c0745604c6a0ed9"
+    },
+    {
+      "path": "checks/demo-entrypoint-results.json",
+      "bytes": 113,
+      "sha256": "cc94345807c9ccff54c9f2bc2f247e3c056d14469be4ed867546e51e542e90fb"
+    },
+    {
+      "path": "checks/demo.mjs",
+      "bytes": 2713,
+      "sha256": "aa677a56454b2d0431c70644e713c7f8980970a157bb2f34ebd029cbb5491723"
+    },
+    {
+      "path": "checks/package-lock.json",
+      "bytes": 9899,
+      "sha256": "d308191c6f92f9d7d0aaca4c5cbd1ba3f96a994c5db93b1591b0e0442524a19e"
+    },
+    {
+      "path": "checks/package.json",
+      "bytes": 401,
+      "sha256": "b73ae74cba7617182edb800a0530b95108c596023bbc718aef8b609bc114df0c"
+    },
+    {
+      "path": "checks/recovered-source-smoke-results.json",
+      "bytes": 1089,
+      "sha256": "3f6047d41709ff8ee1363a420d7e060206132c2acb01839e78e6d0ab40f678f1"
+    },
+    {
+      "path": "checks/removed-unreferenced-backups.json",
+      "bytes": 1543,
+      "sha256": "237320acf743162594079a334ba391112f443205b126fa4850b874652a375385"
+    },
+    {
+      "path": "checks/runtime-smoke-results.json",
+      "bytes": 1080,
+      "sha256": "830028be9b8f6fa26b53a61d7debaf18d9696ada398ff7bfd04e85295f2aa6dc"
+    },
+    {
+      "path": "checks/smoke.mjs",
+      "bytes": 5726,
+      "sha256": "128e40f03a7bb74529e7b6638cb7976c27e281485ac37c6240a0c345fb7d1060"
+    },
+    {
+      "path": "database/schema.sql",
+      "bytes": 78342,
+      "sha256": "29a96f8eff9612de06215913e2aa009c044873698a343805e82a751536a5554c"
+    },
+    {
+      "path": "database/seed-demo.sql",
+      "bytes": 1273,
+      "sha256": "d3580d4e6604da59f3febbabff58cda2b27164e304997a7ef2e1cd8e010dbc2c"
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "bytes": 2336,
+      "sha256": "45d0f25a8798ebb13109d827815abed0a39d490d7bb3eb1b80b0e674a5809f90"
+    },
+    {
+      "path": "docs/RECOVERY.md",
+      "bytes": 3670,
+      "sha256": "6ccb89c16f1309a8f4daaeb27252f258749c89cf9e3ea3ab90d3db953d6628f1"
+    },
+    {
+      "path": "docs/SETUP.md",
+      "bytes": 5348,
+      "sha256": "87a6606c351d5e7145ace660c3a1567fe7956dba577a645a85bb4107f21738e7"
+    },
+    {
+      "path": "docs/api-inventory.json",
+      "bytes": 935,
+      "sha256": "c20ee8673533f277cb16cdc0f0113186a882d5f7117f6315c22961daa27d712e"
+    },
+    {
+      "path": "docs/live-verification.json",
+      "bytes": 9182,
+      "sha256": "23ee2e0719b9bc6502564f97c1dc424df162a763fb21c9819560a50116dc5a90"
+    },
+    {
+      "path": "docs/screenshots/runtime-demo.jpg",
+      "bytes": 118064,
+      "sha256": "b3f959c01640bed0b97239aeaf936d62993b30404faf6702ae996b8e7251beb6"
+    },
+    {
+      "path": "docs/source-build.log",
+      "bytes": 1250,
+      "sha256": "6cd8c8f4e11c71a66d9b3228437ce4b424792e516c47c9955549bd8628da478f"
+    },
+    {
+      "path": "docs/source-provenance.json",
+      "bytes": 4000,
+      "sha256": "abfbcbde9ab7bf1db3021efbb98daf080407a6378a940c9f4009d5bbe1d1ced8"
+    },
+    {
+      "path": "docs/verification-execution.log",
+      "bytes": 5655,
+      "sha256": "d18b71f38ecf80c22d60586ef5107f02d6f5c528870dfce500d67331b64b388e"
+    },
+    {
+      "path": "docs/接手说明.md",
+      "bytes": 2832,
+      "sha256": "ae24d0b5faba1abb1b3c532f02e8e88e2746092acf357e6d1c50f4791ff3da20"
+    },
+    {
+      "path": "docs/源码查找记录.txt",
+      "bytes": 3140,
+      "sha256": "2518f22e4e2a7adb27f7b2d6f6620111eab34e96b4ae33f84063a4c4ad1ded93"
+    },
+    {
+      "path": "recovered-source/.env.example",
+      "bytes": 876,
+      "sha256": "fa1dc6a133c5b3130ad96f560b2b200e690f98b3600d61226738b07edd6b96b1"
+    },
+    {
+      "path": "recovered-source/next-env.d.ts",
+      "bytes": 228,
+      "sha256": "9dd9d642cdb87d4d5b3173217e0c45429b3e47a6f5cf5fb0ead6c644ec5fed01"
+    },
+    {
+      "path": "recovered-source/next.config.mjs",
+      "bytes": 191,
+      "sha256": "4288c9874dc8871c8fec0a119f2ce8c2cd2bd478860471eb65153d2f19c6b199"
+    },
+    {
+      "path": "recovered-source/package-lock.json",
+      "bytes": 231489,
+      "sha256": "c0807797bdf67eff77a8be6e7f8bb54aba56ba2312c68161087473640264e1e5"
+    },
+    {
+      "path": "recovered-source/package.json",
+      "bytes": 779,
+      "sha256": "d70f293a81d77fdb90a67d4ae14e3ea2b781d035490ea02ded2e2b82928a8a9b"
+    },
+    {
+      "path": "recovered-source/postcss.config.js",
+      "bytes": 81,
+      "sha256": "c3275e0c1ab2639ab056915eac2a806b997a7879c31edce8898ec443a4823a06"
+    },
+    {
+      "path": "recovered-source/src/app/api/ads/[id]/route.ts",
+      "bytes": 1591,
+      "sha256": "fd2ad8922b41606640d3364bcae3573c04518e86de1da9e938cc64bd382ee1bf"
+    },
+    {
+      "path": "recovered-source/src/app/api/ads/[id]/video/route.ts",
+      "bytes": 1857,
+      "sha256": "7b12f8679a59f5b87d1f189e79e0e5d1f55a4fc1de443e1cdb5efe09cabb9f8d"
+    },
+    {
+      "path": "recovered-source/src/app/api/ads/route.ts",
+      "bytes": 1061,
+      "sha256": "9e63147f533cc6302dab525bd88a884a636676771660b2453fbc27c8d17dfb5f"
+    },
+    {
+      "path": "recovered-source/src/app/api/ads/upload/route.ts",
+      "bytes": 7939,
+      "sha256": "e2809ec6aa55f0fe276ac0d21cbe64803583ee9332b19ef8d10ac1b0dd601e71"
+    },
+    {
+      "path": "recovered-source/src/app/globals.css",
+      "bytes": 3097,
+      "sha256": "3da4d4372fcb2c28024b78aa6dad9085bee7dbd485329ccf553774c6248b1697"
+    },
+    {
+      "path": "recovered-source/src/app/layout.tsx",
+      "bytes": 413,
+      "sha256": "39faf58cc78e5601249a6ddbc7886b75bfe87d01e19fa9bcae6f916629e65182"
+    },
+    {
+      "path": "recovered-source/src/app/page.tsx",
+      "bytes": 70026,
+      "sha256": "8ebd4edc903d1a453bdc68eb7dcb5fa1306dc04ea871c9c87229a4da33992553"
+    },
+    {
+      "path": "recovered-source/src/lib/server-ads.ts",
+      "bytes": 29847,
+      "sha256": "486672bdea25d89a75dd691a345ab06ea84c6ac24d7d3b30c744f7e697478bf9"
+    },
+    {
+      "path": "recovered-source/tailwind.config.ts",
+      "bytes": 505,
+      "sha256": "f145928c0bd014e2e9e81a8acc23f696304fd59c87ec829a36134c0385015327"
+    },
+    {
+      "path": "recovered-source/tsconfig.json",
+      "bytes": 623,
+      "sha256": "20033ad10464a3a1e5087708cbe76f9dbd561ba4f145f82f2b7dfd397e451c8b"
+    },
+    {
+      "path": "runtime/.env.example",
+      "bytes": 876,
+      "sha256": "fa1dc6a133c5b3130ad96f560b2b200e690f98b3600d61226738b07edd6b96b1"
+    },
+    {
+      "path": "runtime/.next/BUILD_ID",
+      "bytes": 21,
+      "sha256": "5003d861b90eecfb6ff1ccdaed60f2ffe17aab041de6404f3aa7645bafd9ebe8"
+    },
+    {
+      "path": "runtime/.next/app-build-manifest.json",
+      "bytes": 1006,
+      "sha256": "33be11d4044703b161a2b837f0356b5593be6d41d1f83c6623279ad589a73f94"
+    },
+    {
+      "path": "runtime/.next/app-path-routes-manifest.json",
+      "bytes": 1654,
+      "sha256": "f92f7a8c3678607c53562526c4a1cc736245beadbbb0d17fcad731e97fd86157"
+    },
+    {
+      "path": "runtime/.next/build-manifest.json",
+      "bytes": 968,
+      "sha256": "2b2395bf75716bba603beb04372d661f8b037d6d033d7891524b7ba75fa93872"
+    },
+    {
+      "path": "runtime/.next/package.json",
+      "bytes": 20,
+      "sha256": "091a04fa67c7907b98e106fcff8b964e13129754fce72d24f3025b97c4887fa3"
+    },
+    {
+      "path": "runtime/.next/prerender-manifest.json",
+      "bytes": 922,
+      "sha256": "2e1d0f3e322ac1366972e5fa155e18f3f3283e2d59751b0ab3afc646b900e844"
+    },
+    {
+      "path": "runtime/.next/react-loadable-manifest.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "runtime/.next/required-server-files.json",
+      "bytes": 4764,
+      "sha256": "51d4fc64b44ec28c305d797b7c13090a29b8cedea93624480053570099664e25"
+    },
+    {
+      "path": "runtime/.next/routes-manifest.json",
+      "bytes": 2993,
+      "sha256": "19440edb40f254af326f143849edd948c21b95d4f4378322c556f65f2c00bbbe"
+    },
+    {
+      "path": "runtime/.next/server/app/_not-found/page.js",
+      "bytes": 3377,
+      "sha256": "d8431c226c26813c8b9516c3c97ba0613eb53e6002663a78b1ccfaf021ace46d"
+    },
+    {
+      "path": "runtime/.next/server/app/_not-found/page.js.nft.json",
+      "bytes": 2215,
+      "sha256": "6edd6ccffb3adec99f26939d42cbb54b4475385034d26ad01832bed166097cb2"
+    },
+    {
+      "path": "runtime/.next/server/app/_not-found/page_client-reference-manifest.js",
+      "bytes": 4185,
+      "sha256": "96a8eb8a04ab0ff06e4ae243c3382491911cbbbdc39ae0bec80a363bb4692441"
+    },
+    {
+      "path": "runtime/.next/server/app/_not-found.html",
+      "bytes": 6783,
+      "sha256": "4233c429899df22909f97b20d7175d5e16f75ca8dfc56cb90a143d5b4fa5c401"
+    },
+    {
+      "path": "runtime/.next/server/app/_not-found.meta",
+      "bytes": 142,
+      "sha256": "f3ebd2ce4648849809effb8e98ccb31cd7f940ddc4c616e4fb939b29a97896b7"
+    },
+    {
+      "path": "runtime/.next/server/app/_not-found.rsc",
+      "bytes": 3669,
+      "sha256": "9c4896245b75b93d4bf5345955d3a1c7108d9cec1de8ffd5f10bab47431b3c77"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/accounts/[account]/route.js",
+      "bytes": 2279,
+      "sha256": "18b5861fb41018146fe59446ee264544b04f8d7bdeede046790df2f337735920"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/accounts/[account]/route.js.nft.json",
+      "bytes": 8925,
+      "sha256": "bae9a1501c9e9b092aa02f9546a939f031303e8b66f4f83e4f95abd6f9a44355"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/accounts/[account]/videos/route.js",
+      "bytes": 2136,
+      "sha256": "9f1092ef7991383f8a11bbb0abd1bc8234b7377e0d74c3e25531bc54a9e78d8f"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/accounts/[account]/videos/route.js.nft.json",
+      "bytes": 9198,
+      "sha256": "a82d0afe804ab7e8dd6c35333fb26dce8bc7accad88c8bee6318632471be11e9"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/accounts/route.js",
+      "bytes": 2068,
+      "sha256": "40d116eb0d559d267653cbce40349a150b575f65bde99bc61ad7e3e7d88ec7c3"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/accounts/route.js.nft.json",
+      "bytes": 8652,
+      "sha256": "cacf400ffd7457ef869c495c3a232cba1728f1ec69a2c77593d284e6b017c78b"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/monitor-jobs/route.js",
+      "bytes": 2672,
+      "sha256": "4ea171d3b7e4a0e4d0184532758677d054975c17247c95e96a426baeeb2c5341"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/monitor-jobs/route.js.nft.json",
+      "bytes": 8652,
+      "sha256": "cacf400ffd7457ef869c495c3a232cba1728f1ec69a2c77593d284e6b017c78b"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/summary/route.js",
+      "bytes": 1760,
+      "sha256": "ed1b32c01454b53e3314e7473498b55db94c304a104f671bea4e2ebb32975277"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/summary/route.js.nft.json",
+      "bytes": 8652,
+      "sha256": "cacf400ffd7457ef869c495c3a232cba1728f1ec69a2c77593d284e6b017c78b"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/tiktok/route.js",
+      "bytes": 2110,
+      "sha256": "9d37c68e369b5299bc5540e4ded71f138048b55624e7c933f34815067bc01228"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/tiktok/route.js.nft.json",
+      "bytes": 8652,
+      "sha256": "cacf400ffd7457ef869c495c3a232cba1728f1ec69a2c77593d284e6b017c78b"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/trend/route.js",
+      "bytes": 1821,
+      "sha256": "a23d41ec1cc903eca9c0095a8722d109a500f8555dc2c1720768ff539744050f"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/trend/route.js.nft.json",
+      "bytes": 8652,
+      "sha256": "cacf400ffd7457ef869c495c3a232cba1728f1ec69a2c77593d284e6b017c78b"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/videos/[id]/route.js",
+      "bytes": 2025,
+      "sha256": "9fdfbdceb79bae7a45b2dd342f2e7fcbea844056046db4e0242af5f46c0fe8af"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/videos/[id]/route.js.nft.json",
+      "bytes": 8925,
+      "sha256": "bae9a1501c9e9b092aa02f9546a939f031303e8b66f4f83e4f95abd6f9a44355"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/videos/route.js",
+      "bytes": 2007,
+      "sha256": "c1b8c5b5183c13cc72f3b707edb1a731d373de4a993c9de00f48869b0d76212d"
+    },
+    {
+      "path": "runtime/.next/server/app/api/account-ops/videos/route.js.nft.json",
+      "bytes": 8652,
+      "sha256": "cacf400ffd7457ef869c495c3a232cba1728f1ec69a2c77593d284e6b017c78b"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/[id]/clip/route.js",
+      "bytes": 4385,
+      "sha256": "6b16a3a7833f126daba97cc5fcb5c6362bd8e0863561f48a49572fc656f23c33"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/[id]/clip/route.js.nft.json",
+      "bytes": 8925,
+      "sha256": "bae9a1501c9e9b092aa02f9546a939f031303e8b66f4f83e4f95abd6f9a44355"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/[id]/export/route.js",
+      "bytes": 125611,
+      "sha256": "0bf18171b97f83a44cbb86f127a9ed4830b480b1755e2a0de60254ac29b71f25"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/[id]/export/route.js.nft.json",
+      "bytes": 8925,
+      "sha256": "bae9a1501c9e9b092aa02f9546a939f031303e8b66f4f83e4f95abd6f9a44355"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/[id]/frame/route.js",
+      "bytes": 3756,
+      "sha256": "cb11a8a9336b68d0620a0098eb258fe24fb1aae1809aead846e6857dab03a998"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/[id]/frame/route.js.nft.json",
+      "bytes": 8925,
+      "sha256": "bae9a1501c9e9b092aa02f9546a939f031303e8b66f4f83e4f95abd6f9a44355"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/[id]/route.js",
+      "bytes": 2598,
+      "sha256": "caebfa783a7d57dd2cce516c0bb41e6f91e50493f2777cca8579caa067399c6e"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/[id]/route.js.nft.json",
+      "bytes": 8652,
+      "sha256": "cacf400ffd7457ef869c495c3a232cba1728f1ec69a2c77593d284e6b017c78b"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/[id]/video/route.js",
+      "bytes": 2557,
+      "sha256": "41de36519f15e8dacc97e5799d457ab2413799a13b8a39e22c0919f44595a15e"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/[id]/video/route.js.nft.json",
+      "bytes": 8925,
+      "sha256": "bae9a1501c9e9b092aa02f9546a939f031303e8b66f4f83e4f95abd6f9a44355"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/import-by-id/route.js",
+      "bytes": 1867,
+      "sha256": "c2018a847a88c73ac64820cf609eb82fc731fab61d66368a49cf4f738927a3d9"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/import-by-id/route.js.nft.json",
+      "bytes": 8652,
+      "sha256": "cacf400ffd7457ef869c495c3a232cba1728f1ec69a2c77593d284e6b017c78b"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/route.js",
+      "bytes": 2524,
+      "sha256": "00b0fe6ad4271d6e932bc03a66632ca6d2f3f0c30fa31f77cfb036f1b5d6cedd"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ads/route.js.nft.json",
+      "bytes": 8379,
+      "sha256": "14d5ed010e435fa852e5220102048836fa71e5320c74524868827352fc1da75d"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ai-suggest/route.js",
+      "bytes": 3431,
+      "sha256": "5321ff25b6580107e019fcdf50e290c2331dc95a1b762b1231b31cf07db4e141"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ai-suggest/route.js.nft.json",
+      "bytes": 2426,
+      "sha256": "8eb3af4aeed1ae5e57dff361dd01bf5446d05c7503607bb8cea099537a186b82"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ai-video-suggestions/route.js",
+      "bytes": 2120,
+      "sha256": "280fbc7bf7bdaa582b1221b877b94efa63fd9d9c57d4201111a45452202317b3"
+    },
+    {
+      "path": "runtime/.next/server/app/api/ai-video-suggestions/route.js.nft.json",
+      "bytes": 8379,
+      "sha256": "14d5ed010e435fa852e5220102048836fa71e5320c74524868827352fc1da75d"
+    },
+    {
+      "path": "runtime/.next/server/app/api/crawl/tiktok/route.js",
+      "bytes": 3062,
+      "sha256": "b7756adb354c486e73cd279c1cde6bede49607e38e173a9b1b588b6027011d73"
+    },
+    {
+      "path": "runtime/.next/server/app/api/crawl/tiktok/route.js.nft.json",
+      "bytes": 8652,
+      "sha256": "cacf400ffd7457ef869c495c3a232cba1728f1ec69a2c77593d284e6b017c78b"
+    },
+    {
+      "path": "runtime/.next/server/app/api/data-assistant/route.js",
+      "bytes": 29269,
+      "sha256": "bbc938fd1a110aae437932ad92a30ec78b5849f43245c618039a379f4159fc55"
+    },
+    {
+      "path": "runtime/.next/server/app/api/data-assistant/route.js.nft.json",
+      "bytes": 8379,
+      "sha256": "14d5ed010e435fa852e5220102048836fa71e5320c74524868827352fc1da75d"
+    },
+    {
+      "path": "runtime/.next/server/app/api/doubao-analysis/results/[id]/route.js",
+      "bytes": 2298,
+      "sha256": "87f26a215d981074171caf2ec973e0cc936727cc4d308aa28f65b5d5b77d9eeb"
+    },
+    {
+      "path": "runtime/.next/server/app/api/doubao-analysis/results/[id]/route.js.nft.json",
+      "bytes": 8925,
+      "sha256": "bae9a1501c9e9b092aa02f9546a939f031303e8b66f4f83e4f95abd6f9a44355"
+    },
+    {
+      "path": "runtime/.next/server/app/api/doubao-analysis/results/route.js",
+      "bytes": 2096,
+      "sha256": "927b7cd68fd9d328f22512b39f4cdea80fa58b7ade11cd88a782656f98bee127"
+    },
+    {
+      "path": "runtime/.next/server/app/api/doubao-analysis/results/route.js.nft.json",
+      "bytes": 8652,
+      "sha256": "cacf400ffd7457ef869c495c3a232cba1728f1ec69a2c77593d284e6b017c78b"
+    },
+    {
+      "path": "runtime/.next/server/app/api/doubao-analysis/route.js",
+      "bytes": 5396,
+      "sha256": "a1838a4e517dde5c6acc717145a013d7c93ccd99d55498c54cdf65e3364d29ce"
+    },
+    {
+      "path": "runtime/.next/server/app/api/doubao-analysis/route.js.nft.json",
+      "bytes": 2426,
+      "sha256": "8eb3af4aeed1ae5e57dff361dd01bf5446d05c7503607bb8cea099537a186b82"
+    },
+    {
+      "path": "runtime/.next/server/app/api/export/route.js",
+      "bytes": 5844,
+      "sha256": "22ce796c969b253608eb56ef74ca6c9b5b1b2fd42bc45934e2e198b32e87265e"
+    },
+    {
+      "path": "runtime/.next/server/app/api/export/route.js.nft.json",
+      "bytes": 8354,
+      "sha256": "6863e5360fe0001fb232eaa0a75d9a66f05ad6c45270c780a82267b977b285df"
+    },
+    {
+      "path": "runtime/.next/server/app/api/health/route.js",
+      "bytes": 1173,
+      "sha256": "b85f427c784497cbce95fea011d9e15ff7219fe0c4029c8535102459564ffee8"
+    },
+    {
+      "path": "runtime/.next/server/app/api/health/route.js.nft.json",
+      "bytes": 2426,
+      "sha256": "8eb3af4aeed1ae5e57dff361dd01bf5446d05c7503607bb8cea099537a186b82"
+    },
+    {
+      "path": "runtime/.next/server/app/api/health.body",
+      "bytes": 54,
+      "sha256": "bb0e74014cc4ddf298df3ee5cf5279418ca3dc82aabe0e08692a33b5ea2d76d6"
+    },
+    {
+      "path": "runtime/.next/server/app/api/health.meta",
+      "bytes": 176,
+      "sha256": "145c4d20e5ae692c88c8a3872ab1ece6d107c44bb42f386305eb2d005109f165"
+    },
+    {
+      "path": "runtime/.next/server/app/api/public/ads/[id]/route.js",
+      "bytes": 2219,
+      "sha256": "1dc1167cdc8c24314eac91d0ff975f68fb7bbdf7c90b2fbd6cb38fad3b3e720d"
+    },
+    {
+      "path": "runtime/.next/server/app/api/public/ads/[id]/route.js.nft.json",
+      "bytes": 8925,
+      "sha256": "bae9a1501c9e9b092aa02f9546a939f031303e8b66f4f83e4f95abd6f9a44355"
+    },
+    {
+      "path": "runtime/.next/server/app/api/public/ads/route.js",
+      "bytes": 2675,
+      "sha256": "b60e4ee6af5f735ac9585513913fe2f2b8e0d586e9c74978865957e2ed299d89"
+    },
+    {
+      "path": "runtime/.next/server/app/api/public/ads/route.js.nft.json",
+      "bytes": 8652,
+      "sha256": "cacf400ffd7457ef869c495c3a232cba1728f1ec69a2c77593d284e6b017c78b"
+    },
+    {
+      "path": "runtime/.next/server/app/index.html",
+      "bytes": 24149,
+      "sha256": "a432fb626025d82225b6d0b83bbdba2ec8446949ddc351eb2b062f16df38d7f4"
+    },
+    {
+      "path": "runtime/.next/server/app/index.meta",
+      "bytes": 80,
+      "sha256": "043b30a12c5e68cd1d115dd5977fb61cd54a139992e4d42105865c410b799a74"
+    },
+    {
+      "path": "runtime/.next/server/app/index.rsc",
+      "bytes": 2390,
+      "sha256": "0a520d63b150685f1e48f9a154ae18b3ee1dba1532ad0b4a85ec771d90819821"
+    },
+    {
+      "path": "runtime/.next/server/app/page.js",
+      "bytes": 194748,
+      "sha256": "0ef47d10c6d460d835a70d909a6e0cc749b7d44784868099f33949644780c4dc"
+    },
+    {
+      "path": "runtime/.next/server/app/page.js.nft.json",
+      "bytes": 2185,
+      "sha256": "23957be29e5a6e9097b0bbfb382de741379f81dd9c6a77325355b6df9ff9237a"
+    },
+    {
+      "path": "runtime/.next/server/app/page_client-reference-manifest.js",
+      "bytes": 4103,
+      "sha256": "25e539f1e7544e5fe3addbb52720faf851a2be891aef4609a5b786c9333a1379"
+    },
+    {
+      "path": "runtime/.next/server/app-paths-manifest.json",
+      "bytes": 1999,
+      "sha256": "25a4dd5fffd4b96a7f8e78138364a554a56c12bdce13f5733b223159a10bc539"
+    },
+    {
+      "path": "runtime/.next/server/chunks/184.js",
+      "bytes": 93052,
+      "sha256": "9e284a502769f476633221670ca4a002087a87ae0a13ccbbd0880cd3cd77204c"
+    },
+    {
+      "path": "runtime/.next/server/chunks/247.js",
+      "bytes": 38564,
+      "sha256": "31faeed8b87761be16b49c15779729a72759ccd455b11324d06de0c40aff9580"
+    },
+    {
+      "path": "runtime/.next/server/chunks/251.js",
+      "bytes": 94636,
+      "sha256": "861a11b136a660ce9fea9c082b7563d60e34a477b341bc71e5f48c216168f0da"
+    },
+    {
+      "path": "runtime/.next/server/chunks/522.js",
+      "bytes": 58047,
+      "sha256": "2b3fe9d64d4669f69044f9d5303f39ec25ab6772e4d9ecc037797002218a69b3"
+    },
+    {
+      "path": "runtime/.next/server/chunks/590.js",
+      "bytes": 33641,
+      "sha256": "41d22a7399915b0f305efd50a246d0e517c211262acce00ef70029d92b16c171"
+    },
+    {
+      "path": "runtime/.next/server/chunks/meta-share-metrics.js",
+      "bytes": 504,
+      "sha256": "2939f1f64b1c37ab7c36a35b5b4ddb17802b8b618e1d879868a7e63554a2989d"
+    },
+    {
+      "path": "runtime/.next/server/chunks/pinterest-reviewed-products.js",
+      "bytes": 773,
+      "sha256": "2a0e842907a5f4dbd4f04ab7e71d108c3296c0733af11db4ffb7bba363685d69"
+    },
+    {
+      "path": "runtime/.next/server/chunks/product-catalog.json",
+      "bytes": 357557,
+      "sha256": "5a41b0308c8f7995fae42e495310a4af2077d85112f6dc62d1f671e97a719871"
+    },
+    {
+      "path": "runtime/.next/server/chunks/product-taxonomy.js",
+      "bytes": 6568,
+      "sha256": "71df89aedc45151206e1099ed602be2e234a694aa403d56f2909b9e2337bce95"
+    },
+    {
+      "path": "runtime/.next/server/font-manifest.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "runtime/.next/server/middleware-build-manifest.js",
+      "bytes": 888,
+      "sha256": "b2c9764a773aace85851df50b86c3a675a5a657065e11fc75375a3860e9e2d6e"
+    },
+    {
+      "path": "runtime/.next/server/middleware-manifest.json",
+      "bytes": 83,
+      "sha256": "0a8520bc7e076f7ae717c2d62713990c83e8a3d74626f327a3844bc0504e210c"
+    },
+    {
+      "path": "runtime/.next/server/middleware-react-loadable-manifest.js",
+      "bytes": 36,
+      "sha256": "ad2e79ec91e2a5440840da3d8bd222c279b3b4c47e89a968327a66f6cb12eb82"
+    },
+    {
+      "path": "runtime/.next/server/next-font-manifest.js",
+      "bytes": 106,
+      "sha256": "2c0f5bbb79d07dfea405146a62d7e15a7a9e890d29e38b7db2631fcf6e480da8"
+    },
+    {
+      "path": "runtime/.next/server/next-font-manifest.json",
+      "bytes": 77,
+      "sha256": "926e772d34a53f2a4d9b16071dd6ea77b051b2b7acc49d9165723debe3fbbe0f"
+    },
+    {
+      "path": "runtime/.next/server/pages/404.html",
+      "bytes": 6783,
+      "sha256": "4233c429899df22909f97b20d7175d5e16f75ca8dfc56cb90a143d5b4fa5c401"
+    },
+    {
+      "path": "runtime/.next/server/pages/500.html",
+      "bytes": 2192,
+      "sha256": "86dccb94447693c8a0d24f2965330d9a726ea1a0dfa60d3466c4b84cfaca3ad5"
+    },
+    {
+      "path": "runtime/.next/server/pages/_app.js",
+      "bytes": 3291,
+      "sha256": "3ab34195d72ac18da65ea1e0db1db9743e6ec85c196be640da0a94a1433489ea"
+    },
+    {
+      "path": "runtime/.next/server/pages/_app.js.nft.json",
+      "bytes": 847,
+      "sha256": "c821c4e9f4b64566479f0d6f8d6ffe06427b8baf490a11fb89b08047df0c67c7"
+    },
+    {
+      "path": "runtime/.next/server/pages/_document.js",
+      "bytes": 378,
+      "sha256": "9960bb388ea2695871c0296cbaa42548211732a054572d7e5b3584479dce056b"
+    },
+    {
+      "path": "runtime/.next/server/pages/_document.js.nft.json",
+      "bytes": 4212,
+      "sha256": "a275c71ed8f0a79a2bebc55003cd2bba841f290272a3a38169f3e2423cc0940b"
+    },
+    {
+      "path": "runtime/.next/server/pages/_error.js",
+      "bytes": 8619,
+      "sha256": "7ff3c7a4a7a9aa86d4e84886638f2dc852d25f1850d728de254705b62e58f84c"
+    },
+    {
+      "path": "runtime/.next/server/pages/_error.js.nft.json",
+      "bytes": 4059,
+      "sha256": "98642322ad11802095ff045b93a352848935d10b12c58a6399dc668de60eebf8"
+    },
+    {
+      "path": "runtime/.next/server/pages-manifest.json",
+      "bytes": 111,
+      "sha256": "0ad2152605d1fedef7740af2809982e86b206f12cc3353767c0520834f9b51cf"
+    },
+    {
+      "path": "runtime/.next/server/server-reference-manifest.js",
+      "bytes": 123,
+      "sha256": "ce01006c00e1f63bcbfe41b3f7edd260d969b41d0a323b705c44e1ef9df13d8c"
+    },
+    {
+      "path": "runtime/.next/server/server-reference-manifest.json",
+      "bytes": 84,
+      "sha256": "99f7e41aafb48286d77fbf500917b1a3a612048da72718d5ee1d21bc55f02661"
+    },
+    {
+      "path": "runtime/.next/server/webpack-runtime.js",
+      "bytes": 2398,
+      "sha256": "94eb528b10394ec1a4ec43eb567defc83c69fb69413d556f050ccefe642ee013"
+    },
+    {
+      "path": "runtime/.next/static/RHMfDFAfWgm8aEOnWuyZ_/_buildManifest.js",
+      "bytes": 224,
+      "sha256": "98164ffb07fc8193e986e371c9ab0cff90f5a755d7740e3c7a65bb3eb18815fe"
+    },
+    {
+      "path": "runtime/.next/static/RHMfDFAfWgm8aEOnWuyZ_/_ssgManifest.js",
+      "bytes": 80,
+      "sha256": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00"
+    },
+    {
+      "path": "runtime/.next/static/chunks/2200cc46-bb2e82a2a422da49.js",
+      "bytes": 172834,
+      "sha256": "a30e6ccdda55dc70b32c9f3e24b604facc386bd698de03127b782501552ec238"
+    },
+    {
+      "path": "runtime/.next/static/chunks/817-d09750f0ce281a0c.js",
+      "bytes": 10120,
+      "sha256": "48ba74f10043583468876aa78a61e8a57ff97ba30d54921ae7469f9d022aba4b"
+    },
+    {
+      "path": "runtime/.next/static/chunks/945-753c5e2f5f52dbdf.js",
+      "bytes": 124480,
+      "sha256": "aad2d184d4a85b4d25f2b87c1899e6ebca3d77a279b5deae3590910c6fc6fcd2"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/_not-found/page-8194a34fe9d5ebe2.js",
+      "bytes": 1745,
+      "sha256": "330c725df119abe3205f99974591e2b72f53cecf7ca454377908d4b0a94b0f5d"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/layout-c89bf47baceded0d.js",
+      "bytes": 230,
+      "sha256": "15168ed118d20b03eeaf5568f151ecdcf8c2a370991ec1886d74a08952aa10ec"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-analysis-grid-sync.js",
+      "bytes": 522675,
+      "sha256": "184f82166b07973897750cf42899eabb760362ef636b16be5a4724cd3157adf3"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-button-contrast.js",
+      "bytes": 532481,
+      "sha256": "9a13a0cb99d22194f580bed728b293dccb12d20b1927e1df354f5ed75a488589"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-country-name-v2.js",
+      "bytes": 544633,
+      "sha256": "967307164b0389f838bcacda90af06bb85753fc554608fdc5fa2bb9a35d746c0"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-country-video-filter.js",
+      "bytes": 543738,
+      "sha256": "85f983c2743489166755f562c6ecf382f8667ee5a03724b0b2b2747dae669d4a"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-cover-posters-20260916.js",
+      "bytes": 547323,
+      "sha256": "7469f27a28090a32d0d986eb1746e316bf6447a53ec7b657629d0c6a0e3caa61"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-data-assistant-20260923-v18-country-definition.js",
+      "bytes": 570254,
+      "sha256": "ea561e3c366d8eabf689d9e181f72287a125ae8c90ec72e1d623fdf39b773888"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-exact-play-counts-20260921.js",
+      "bytes": 549759,
+      "sha256": "07d16c98ce3f9793de61ac248b853332edc16262c8433040e8a334f8c780fda7"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-facebook-analysis.js",
+      "bytes": 535154,
+      "sha256": "80a813a09e5679238e7f87ed823c8246fb20376ed435c66e500c3c1eabe22e86"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-favorite-fix.js",
+      "bytes": 522345,
+      "sha256": "cbec7b49d2cc25127d73a94a5e2acff0b839a8d4907381ac750b172a5d6b06ad"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-favorite-fix2.js",
+      "bytes": 522339,
+      "sha256": "89db5ff9a0a59f63cfbf2169562062e0674aa6f90c3e5a127daf922837263119"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-favorite.js",
+      "bytes": 522350,
+      "sha256": "587b461d4a795837c0ea5a44872de629dd38c0cb27f1726a2101fb64d739e799"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-favorites-cleanup.js",
+      "bytes": 525210,
+      "sha256": "64b2cf330620caba36bc021cb654623f93e40f0374c406aab555f8af0110b77d"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-favorites-date.js",
+      "bytes": 530650,
+      "sha256": "cbfb36534ac03f3841994b03e7d1ae2fa3b2f80f2c0bedb610cc25739730deac"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-filter-center-20260916.js",
+      "bytes": 548680,
+      "sha256": "e19b88ebedb669a18013416d7860fbbe7503fdc880b1f8c5473d9f1726474ca7"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-filter-spacing-20260916.js",
+      "bytes": 548621,
+      "sha256": "220d67ade53cc4d610360a039ea48950b66085c7ee73c883e51dca59e0b8dbed"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-indiegogo-20260908.js",
+      "bytes": 546631,
+      "sha256": "61918e3315d332e563d981782655a7a9f567b61d726e6b68ae4eee4125e44e9c"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-indiegogo-counts-20260915.js",
+      "bytes": 547063,
+      "sha256": "aae0f979570a06970f103b6261ca3886d534b3ed5f8e9f0f65e24a1f26366bfd"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-library-full-load.js",
+      "bytes": 530661,
+      "sha256": "c9fe9b6db94b0d8e4ca437a8a3cc53eae877b6e29d1229d3088849c0af2f51da"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-library-ready.js",
+      "bytes": 531674,
+      "sha256": "b106a3f745c35d14551bfa45fd96afaea110cc50c3c574e1e0938821b9709e56"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-library-recent.js",
+      "bytes": 530679,
+      "sha256": "efef93a95ef7fa34558e65a073a60b3df724138accc648e12da57cf883edaaf2"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-meta-share-availability-20260921.js",
+      "bytes": 550478,
+      "sha256": "fbee371cbc952ef31bbad122dfca9777df94d27f1882642c0d52d983f809e188"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-native-video.js",
+      "bytes": 535978,
+      "sha256": "de651c8bb11f69332501904e7c462fa3ca1e569317c49f24fe1eb15f7e81ee88"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-pinterest-platform.js",
+      "bytes": 545046,
+      "sha256": "b812bf52d5168e32c099b8e0d129be910c50b49c08cceca5a7c88d9587b67dcc"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-product-collapse-20260916-v2.js",
+      "bytes": 548616,
+      "sha256": "9d53661c102c8925849092329bb05c92c684e6794211d22cce53cc1443b14150"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-product-detail-20260917.js",
+      "bytes": 548836,
+      "sha256": "7da65813cad7b850acc0443cbc156f96736bc8b077c281ecefcb1a3b8f2ad776"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-product-four-rows-20260920.js",
+      "bytes": 550167,
+      "sha256": "66c7a9fb10ca8fcfa39f2704426277b2769049943570aa83a818cfa5610ee14b"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982-search-20260918.js",
+      "bytes": 550167,
+      "sha256": "73538b90d13bfa62abb0b3914129dbd9d9ee41546a7603ee8927109e4005659d"
+    },
+    {
+      "path": "runtime/.next/static/chunks/app/page-1365c4e5d241a982.js",
+      "bytes": 197078,
+      "sha256": "515b277544522fef92563233b090ca5602328fdaff2d59f89d11a17cd4fb0416"
+    },
+    {
+      "path": "runtime/.next/static/chunks/framework-6e06c675866dc992.js",
+      "bytes": 139981,
+      "sha256": "ad26a017bd63ad4d934fe6dd2602078fb3e25e36c66b5511466acacd797fbad2"
+    },
+    {
+      "path": "runtime/.next/static/chunks/main-app-daa93706608a1b38.js",
+      "bytes": 462,
+      "sha256": "133da856b03b6968a6c87ba1a36b552def18cec911100c1053106cb47bcb6157"
+    },
+    {
+      "path": "runtime/.next/static/chunks/main-bdd00fb5cc3b7185.js",
+      "bytes": 117355,
+      "sha256": "7c62eb09a11467a83a07755f49790daca5968c0c61cfa06f23be8a3a0fc2b6db"
+    },
+    {
+      "path": "runtime/.next/static/chunks/pages/_app-0c3037849002a4aa.js",
+      "bytes": 280,
+      "sha256": "f3d3a2a6288f82eb5737da748a6911b18bbf3aa184efed393fb20ad84ebf4fbb"
+    },
+    {
+      "path": "runtime/.next/static/chunks/pages/_error-a647cd2c75dc4dc7.js",
+      "bytes": 247,
+      "sha256": "a63ee6786582b90a17fd194a3cad1636a69676910bf94e6fed4927cddf815f91"
+    },
+    {
+      "path": "runtime/.next/static/chunks/polyfills-42372ed130431b0a.js",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "path": "runtime/.next/static/chunks/webpack-809fcb4ebd4212be.js",
+      "bytes": 3466,
+      "sha256": "afdb97664bba662082abe0ff6f4e87a8dd9cb472cb677360729ce6edac68b65b"
+    },
+    {
+      "path": "runtime/.next/static/css/5c94fbbe1d289fb2.css",
+      "bytes": 39517,
+      "sha256": "3b520771e222ef66fe05af0978ae50ae5c9d7a61b4e43aa1461bab6c81400625"
+    },
+    {
+      "path": "runtime/package-lock.json",
+      "bytes": 24499,
+      "sha256": "7bb36778db0efe272f25845879b6d4e7bf172d6fc169ef61e546ee3c8ad343a3"
+    },
+    {
+      "path": "runtime/package.json",
+      "bytes": 364,
+      "sha256": "9aa43b4abdbb530fc973bcdaf789e109d5a1a8022c7e1be2a436a9c5815ff5f2"
+    },
+    {
+      "path": "runtime/scripts/analyze_brazil_doubao21_batch.py",
+      "bytes": 27596,
+      "sha256": "24c6288ec6a362631ac1bc878dcafcb2c2a8f5c63acadf8ad98050744137da08"
+    },
+    {
+      "path": "runtime/scripts/analyze_single_ad_doubao21.py",
+      "bytes": 13425,
+      "sha256": "b6e90dfe67f6f30ccff9ec3583ab41c6229fd32d80a2b3ecbef374032b836ddf"
+    },
+    {
+      "path": "runtime/scripts/classify_video_countries_batch.py",
+      "bytes": 17855,
+      "sha256": "5c353b4d7eb2f547f5549a71d0c2dc35b735f245543f802c3b22d8070e854cf5"
+    },
+    {
+      "path": "runtime/server.js",
+      "bytes": 4706,
+      "sha256": "fb724f73e775a39a104cabf1a0633830efa64e006d39b0083f157981525c8ac4"
+    },
+    {
+      "path": "tools/demo.mjs",
+      "bytes": 745,
+      "sha256": "0e268dbd29e4896270bc92b6b470d2b910b8f0aee82c499244970c96d514601b"
+    },
+    {
+      "path": "tools/verify.mjs",
+      "bytes": 1278,
+      "sha256": "eb78bdf2e8b5a3d0ae34fdc8f178a8d80afa6221fadb2220348be8c00ec13e83"
+    }
+  ]
+}

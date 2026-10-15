@@ -1,0 +1,11 @@
+import {spawn} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+import {existsSync} from 'node:fs';
+const root=path.dirname(path.dirname(fileURLToPath(import.meta.url)));
+if(!existsSync(path.join(root,'checks/node_modules'))||!existsSync(path.join(root,'runtime/node_modules')))throw Error('请先执行 node tools/verify.mjs 安装并验证依赖。');
+const child=spawn(process.execPath,[path.join(root,'checks/demo.mjs'),'runtime'],{cwd:root,stdio:'inherit',env:process.env});
+process.on('SIGINT',()=>child.kill('SIGINT'));
+process.on('SIGTERM',()=>child.kill('SIGTERM'));
+child.on('error',e=>{console.error(e.message);process.exitCode=1;});
+child.on('exit',code=>{process.exitCode=code??1;});

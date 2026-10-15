@@ -1,0 +1,37 @@
+{
+  "deliveryDate": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "freshZipExtractVerified": true,
+  "verificationCommand": "node tools/verify.mjs",
+  "dependencyInstall": "npm ci for all three projects",
+  "nodeVersion": "24.19.0",
+  "npmVersion": "12.2.0",
+  "testedPlatform": "macOS arm64",
+  "historicalSourceBuildPassed": true,
+  "coreChecksPerVersion": 10,
+  "versions": [
+    "runtime",
+    "recovered-source"
+  ],
+  "demoEntrypointVerified": true,
+  "demoGracefulShutdownVerified": true,
+  "databaseSchemaTables": 32,
+  "databaseTestEngine": "PGlite embedded PostgreSQL",
+  "pythonSyntaxFilesChecked": 3,
+  "sensitivePatternMatches": [],
+  "zipContainsProductionBusinessData": false,
+  "productionWritesPerformed": false,
+  "fullRuntimeTested": false,
+  "currentCompleteOriginalSourceIncluded": false,
+  "githubActionsRun": false,
+  "notValidated": [
+    "Complete current-source rebuild",
+    "Native PostgreSQL 16 end-to-end deployment",
+    "OSS and real video workflows",
+    "AI and crawler/workstation integration",
+    "Account operations end-to-end",
+    "Authorization and security audit",
+    "Dependency vulnerability audit",
+    "Windows and Linux execution"
+  ]
+}

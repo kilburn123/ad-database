@@ -1,0 +1,16 @@
+{
+  "name": "ad-database-handoff-checks",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node smoke.mjs",
+    "test:source": "node smoke.mjs recovered-source",
+    "demo": "node demo.mjs runtime",
+    "demo:source": "node demo.mjs recovered-source"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.8",
+    "@electric-sql/pglite-socket": "0.2.11",
+    "pg": "8.22.0"
+  }
+}

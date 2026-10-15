@@ -1,0 +1,28 @@
+import {PGlite} from '@electric-sql/pglite';
+import {PGLiteSocketServer} from '@electric-sql/pglite-socket';
+import {readFile,mkdtemp,rm,mkdir} from 'node:fs/promises';
+import {spawn} from 'node:child_process';
+import {createServer} from 'node:net';
+import {tmpdir} from 'node:os';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.dirname(path.dirname(fileURLToPath(import.meta.url)));
+const mode=process.argv[2]||'runtime';
+if(!['runtime','recovered-source'].includes(mode))throw Error('Choose runtime or recovered-source');
+const freePort=()=>new Promise((resolve,reject)=>{const s=createServer();s.on('error',reject);s.listen(0,'127.0.0.1',()=>{const p=s.address().port;s.close(()=>resolve(p));});});
+const db=await PGlite.create();
+const sql=(await readFile(path.join(root,'database/schema.sql'),'utf8')).replace(/^\\(?:un)?restrict[^\n]*$/gm,'');
+await db.exec(sql);await db.exec(await readFile(path.join(root,'database/seed-demo.sql'),'utf8'));
+const dbPort=await freePort(),httpPort=await freePort();
+const socket=new PGLiteSocketServer({db,host:'127.0.0.1',port:dbPort,maxConnections:20});await socket.start();
+const temp=await mkdtemp(path.join(tmpdir(),'ad-demo-'));
+const env={...Object.fromEntries(["PATH","HOME","TMPDIR","TEMP","TMP","LANG","SYSTEMROOT"].filter(k=>process.env[k]).map(k=>[k,process.env[k]])),NODE_ENV:'production',NEXT_TELEMETRY_DISABLED:'1',HOSTNAME:'127.0.0.1',PORT:String(httpPort),DATABASE_URL:`postgresql://postgres:demo@127.0.0.1:${dbPort}/postgres`,POSTGRES_URL:'',TIKTOK_AD_DATA_DIR:path.join(temp,'data'),OSS_ACCESS_KEY_ID:'',OSS_ACCESS_KEY_SECRET:'',OSS_BUCKET:'',OSS_ENDPOINT:'',OSS_PUBLIC_BASE_URL:'',ARK_API_KEY:'',DOUBAO_API_KEY:'',OPENAI_API_KEY:'',GEMINI_API_KEY:'',WORKSTATION_GW_BASE:'http://127.0.0.1:1'};
+await mkdir(env.TIKTOK_AD_DATA_DIR,{recursive:true});
+const args=mode==='runtime'?['server.js']:['node_modules/next/dist/bin/next','start','-H','127.0.0.1','-p',String(httpPort)];
+const child=spawn(process.execPath,args,{cwd:path.join(root,mode),env,stdio:'inherit'});
+console.log(`DEMO_URL=http://127.0.0.1:${httpPort}/tiktok-ad-assistant`);
+console.log('Synthetic, temporary data only. OSS/model/crawler credentials are blank. Ctrl+C stops the demo.');
+let stopping=false;
+async function stop(){if(stopping)return;stopping=true;child.kill('SIGTERM');await new Promise(r=>setTimeout(r,500));await socket.stop();await new Promise(r=>setTimeout(r,500));await db.close();await rm(temp,{recursive:true,force:true});}
+process.on('SIGINT',()=>stop().then(()=>process.exit(0)));process.on('SIGTERM',()=>stop().then(()=>process.exit(0)));
+child.once('exit',()=>{if(!stopping)stop().then(()=>process.exit(child.exitCode??1));});

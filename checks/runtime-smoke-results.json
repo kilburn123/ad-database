@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-14T17:14:59.163Z",
+  "mode": "runtime",
+  "databaseEngine": "PGlite (embedded PostgreSQL, not production PostgreSQL 16)",
+  "syntheticDataOnly": true,
+  "productionDatabaseConnected": false,
+  "ossOrModelCallsTested": false,
+  "checks": [
+    {
+      "name": "Import current schema into empty database",
+      "passed": true
+    },
+    {
+      "name": "32 database tables created",
+      "passed": true
+    },
+    {
+      "name": "Demo inserts and normalization triggers",
+      "passed": true
+    },
+    {
+      "name": "Homepage returns HTML",
+      "passed": true
+    },
+    {
+      "name": "Homepage static asset loads",
+      "passed": true
+    },
+    {
+      "name": "List synthetic ads",
+      "passed": true
+    },
+    {
+      "name": "Read ad detail",
+      "passed": true
+    },
+    {
+      "name": "Favorite update persisted",
+      "passed": true
+    },
+    {
+      "name": "Delete synthetic record and cascade",
+      "passed": true
+    },
+    {
+      "name": "Deleted detail returns 404",
+      "passed": true
+    }
+  ],
+  "passed": true
+}
